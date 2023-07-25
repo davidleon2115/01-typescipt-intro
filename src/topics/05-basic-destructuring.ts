@@ -11,12 +11,12 @@ type Details = {
 }
 
 const audioPlayer : AudioPlayer = {
-    audioVolume: 0,
-    songDuration: 0,
-    song: "",
+    audioVolume: 90,
+    songDuration: 36,
+    song: "Mess",
     details: {
-        author: "",
-        year: 0
+        author: "Ed Sheeran",
+        year: 2015
     }
 }
 
