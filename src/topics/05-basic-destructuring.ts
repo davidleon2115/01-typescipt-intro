@@ -20,6 +20,8 @@ const audioPlayer : AudioPlayer = {
     }
 }
 
+const {} = audioPlayer;
+
 
 
 
