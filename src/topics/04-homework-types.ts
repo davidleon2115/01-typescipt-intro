@@ -4,8 +4,8 @@
 
 type Address = {
     street: string;
-    pais: string;
-    ciudad: string;
+    country: string;
+    city: string;
 }
 
 interface SuperHero {
@@ -21,11 +21,11 @@ const superHeroe: SuperHero = {
     age: 30,
     address: {
         street: 'Main St',
-        pais: 'USA',
-        ciudad: 'NY'
+        country: 'USA',
+        city: 'NY'
     },
     showAddress() {
-        return this.name + ', ' + this.address.ciudad + ', ' + this.address.pais;
+        return this.name + ', ' + this.address.city + ', ' + this.address.country;
     }
 }
 
